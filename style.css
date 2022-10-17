@@ -1,2 +1,69 @@
-image{
+*{
+     box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: wheat;
+    display: grid;
+ 
+ 
+}
+img{
+   height: 400px;
+    width: 300px;
+} 
+.grid-container{
+ display: grid;
+ grid-template-columns: auto auto;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid white; 
+ border-radius: 20px; 
+ overflow: hidden;
+ box-shadow: 1px 1px 4px bisque;
+ 
+
+} 
+.item2{
+    height: 400px;
+    width: 300px;
+    background: white;
+    padding-left: 20px;
+    text-align: start;
+
+}
+.item2 p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: bold;
+    max-width: 250px;
+    opacity: 50%;
+   
+}
+.item2 .scent{
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    opacity: 50%;
+    padding-top: 10px;
+}
+.item2 h1{
+   min-height: 100px;
+   max-width: 200px;
+}
+.item2 .price{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+.item2 .button{
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+
+
 }
